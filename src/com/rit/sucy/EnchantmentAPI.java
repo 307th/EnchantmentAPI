@@ -1,6 +1,5 @@
 package com.rit.sucy;
 
-import com.rit.sucy.Anvil.AnvilListener;
 import com.rit.sucy.commands.Commander;
 import com.rit.sucy.config.RootConfig;
 import com.rit.sucy.enchanting.*;
@@ -121,7 +120,6 @@ public class EnchantmentAPI extends JavaPlugin {
 
         // Listeners
         new EListener(this);
-        new AnvilListener(this);
     }
 
     /**

@@ -29,7 +29,6 @@
         <url>file://${project.build.directory}/mvn-repo</url>
     </repository>
 </distributionManagement>
-
 <build>
 	<sourceDirectory>src</sourceDirectory>
 		<plugins>
